@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
+    
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon">
+    <link href="assets/img/favicon/apple-touch-icon.png" rel="apple-touch-icon">
 
     <style data-tag="reset-style-sheet">
       html {
@@ -97,84 +101,84 @@
             alt="bgcontact3112"
             class="login-page-bgcontact"
           />
-            <a href="home.html" class="login-page-logo">
+            <a class="login-page-logo">
               <img src="assets/img/logo.png" alt="logo">
               <span class="login-page-text10">SIMULATOR <br> LONGSOR</span>
             </a>
             <div class="login-page-login-form">
-            <form action="/submit-login" method="POST">
-              <div class="login-page-login-card">
-              <div class="login-page-group180">
-                <span class="login-page-text11">LOGIN</span>
-                <a href="index.html" class="login-page-text12">Kembali Ke Halaman Utama</a>
-                <div class="login-page-button">
-                <button type="submit" class="login-page-text13">LOGIN</button>
-                </div>
-                <div class="login-page-email">
-                <img
-                  src="assets/img/login/rectangle112951-x6t9.svg"
-                  alt="Rectangle112951"
-                  class="login-page-rectangle11"
-                />
-                <input type="email" name="email" class="login-page-text14" placeholder="Email" required />
-                <div class="login-page-group341">
-                  <div class="login-page-group331">
-                  <img
-                    src="assets/img/login/ellipse272951-13e4-200w.png"
-                    alt="Ellipse272951"
-                    class="login-page-ellipse271"
-                  />
-                  <img
-                    src="assets/img/login/ellipse282951-qgj-200h.png"
-                    alt="Ellipse282951"
-                    class="login-page-ellipse28"
-                  />
-                  <img
-                    src="assets/img/login/ellipse292951-a69c-200h.png"
-                    alt="Ellipse292951"
-                    class="login-page-ellipse29"
-                  />
+              <form id="loginForm" action="php/submit-login.php" method="POST">
+                <div class="login-page-login-card">
+                  <div class="login-page-group180">
+                    <span class="login-page-text11">LOGIN</span>
+                    <a href="index.html" class="login-page-text12">Kembali Ke Halaman Utama</a>
+                    <div id="message"></div> <!-- Menampilkan pesan login -->
+                    <div class="login-page-button">
+                      <button type="submit" class="login-page-text13">LOGIN</button>
+                    </div>
+                    <div class="login-page-email">
+                      <img
+                        src="assets/img/login/rectangle112951-x6t9.svg"
+                        alt="Rectangle112951"
+                        class="login-page-rectangle11"
+                      />
+                      <input type="email" name="email" class="login-page-text14" placeholder="Email" required />
+                      <div class="login-page-group341">
+                        <div class="login-page-group331">
+                          <img
+                            src="assets/img/login/ellipse272951-13e4-200w.png"
+                            alt="Ellipse272951"
+                            class="login-page-ellipse271"
+                          />
+                          <img
+                            src="assets/img/login/ellipse282951-qgj-200h.png"
+                            alt="Ellipse282951"
+                            class="login-page-ellipse28"
+                          />
+                          <img
+                            src="assets/img/login/ellipse292951-a69c-200h.png"
+                            alt="Ellipse292951"
+                            class="login-page-ellipse29"
+                          />
+                        </div>
+                      </div>
+                      <span class="login-page-text15">Email</span>
+                    </div>
+                    <div class="login-page-password">
+                      <img
+                        src="assets/img/login/rectangle122952-472r-200h.png"
+                        alt="Rectangle122952"
+                        class="login-page-rectangle12"
+                      />
+                      <div class="login-page-group342">
+                        <div class="login-page-group332">
+                          <img
+                            src="assets/img/login/rectangle272952-zwo-200h.png"
+                            alt="Rectangle272952"
+                            class="login-page-rectangle27"
+                          />
+                          <img
+                            src="assets/img/login/rectangle282952-mt5-200h.png"
+                            alt="Rectangle282952"
+                            class="login-page-rectangle28"
+                          />
+                          <img
+                            src="assets/img/login/ellipse272952-lzn6-200h.png"
+                            alt="Ellipse272952"
+                            class="login-page-ellipse272"
+                          />
+                        </div>
+                        <img
+                          src="assets/img/login/line32952-4ta.svg"
+                          alt="Line32952"
+                          class="login-page-line32"
+                        />
+                      </div>
+                      <input type="password" name="password" class="login-page-text17" placeholder="Password" required />
+                      <span class="login-page-text18">Password</span>
+                    </div>
                   </div>
                 </div>
-                <span class="login-page-text15">Email</span>
-                </div>
-                <div class="login-page-password">
-                <a href="forgot-password.html" class="login-page-text16">Lupa Password ?</a>
-                <img
-                  src="assets/img/login/rectangle122952-472r-200h.png"
-                  alt="Rectangle122952"
-                  class="login-page-rectangle12"
-                />
-                <div class="login-page-group342">
-                  <div class="login-page-group332">
-                  <img
-                    src="assets/img/login/rectangle272952-zwo-200h.png"
-                    alt="Rectangle272952"
-                    class="login-page-rectangle27"
-                  />
-                  <img
-                    src="assets/img/login/rectangle282952-mt5-200h.png"
-                    alt="Rectangle282952"
-                    class="login-page-rectangle28"
-                  />
-                  <img
-                    src="assets/img/login/ellipse272952-lzn6-200h.png"
-                    alt="Ellipse272952"
-                    class="login-page-ellipse272"
-                  />
-                  </div>
-                  <img
-                  src="assets/img/login/line32952-4ta.svg"
-                  alt="Line32952"
-                  class="login-page-line32"
-                  />
-                </div>
-                <input type="password" name="password" class="login-page-text17" placeholder="Password" required />
-                <span class="login-page-text18">Password</span>
-                </div>
-              </div>
-              </div>
-            </form>
+              </form>
             <div class="login-page-vector">
               <img
               src="assets/img/login/file22969-otjx-500w.png"
